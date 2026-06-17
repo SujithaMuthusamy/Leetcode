@@ -1,5 +1,5 @@
 void merge(int* nums1, int nums1Size, int m, int* nums2, int nums2Size, int n) {
-    int merged[m+n];
+    int merged[n+m];
     int k=0;
     for(int i=0;i<m;i++){
         merged[k++]=nums1[i];
